@@ -1,0 +1,69 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+pip-wheel-metadata/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.virtualenv/
+
+# Secrets and local env
+.env
+.env.*
+!.env.example
+*.pem
+secrets.json
+credentials.json
+.streamlit/secrets.toml
+
+# Test, type-check, and coverage caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# Streamlit local state and on-disk cache
+.streamlit/cache/
+**/.streamlit/cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE and editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+Desktop.ini
+
+# Logs
+*.log
+
+# Common archive upload leftovers (app source lives at the repo root)
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+*.rar
